@@ -1,7 +1,7 @@
 {
   "name": "proekt",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![Actions Status](https://github.com/maqfer/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/maqfer/frontend-project-44/actions)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,11 +9,24 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "make": "^0.8.1",
-    "node": "^19.2.0"
+    "eslint": "^8.29.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "make": "^0.0.0",
+    "node": "^19.2.0",
+    "readline-sync": "^1.4.10"
   },
   "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.js"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maqfer/frontend-project-44.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/maqfer/frontend-project-44/issues"
+  },
+  "homepage": "https://github.com/maqfer/frontend-project-44#readme"
 }
